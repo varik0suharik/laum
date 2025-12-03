@@ -1,0 +1,66 @@
+/* Основной стиль */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #AFE1AF; /* Лаймовый цвет */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #AFE1AF; /* Лаймовый цвет */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    top: 10px;
+}
+
+/* Адаптация под мобильные устройства */
+@media(max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    main section {
+        padding: 10px;
+    }
+}
